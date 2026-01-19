@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup >
 import { itemList } from './store';
 import {ref} from'vue'
 </script>

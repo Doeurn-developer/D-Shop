@@ -2,7 +2,7 @@
   <header class="w-full bg-slate-400 h-[45px] text-white sticky top-0 z-50">
     <div class="flex relative">
       <span
-        class="w-[30%] lg:w-[10%] md:w-[20%] h-[40px] flex justify-center items-center lg:text-2xl text-sm transition md:text-xl "
+        class="w-[30%] lg:w-[10%] md:w-[20%] h-[40px] flex justify-center items-center lg:text-2xl text-sm transition md:text-xl"
         >D shop</span
       >
       <ul class="w-[60%] flex lg:justify-around items-center">
@@ -26,8 +26,10 @@
         <li class="hover:text-pink-500 hidden lg:flex">
           <i class="fa-solid fa-heart"></i>
         </li>
-        <li class="hover:text-gray-500 cursor-pointer" 
-        @click="toggleLoginModal">
+        <li
+          class="hover:text-gray-500 cursor-pointer"
+          @click="toggleLoginModal"
+        >
           <i class="fa-regular fa-user"></i>
         </li>
         <li class="hover:text-blue-500">
@@ -44,16 +46,14 @@ import { isDrawer } from "./store";
 const showDrawer = () => {
   isDrawer.value = !isDrawer.value;
 };
-import { useRouter } from 'vue-router';
+import { useRouter } from "vue-router";
 const router = useRouter();
 const loGin = () => {
-router.push({ name:"login" }); 
+  router.push({ name: "login" });
 };
-
-
 </script>
 <style setup>
-  span{
-      font-family: "Sekuya", system-ui;
-  }
+span {
+  font-family: "Sekuya", system-ui;
+}
 </style>

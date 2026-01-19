@@ -25,9 +25,8 @@
       <i class="fa-solid fa-angle-right" @click="nextSlide"></i>
     </div>
   </nav>
-  
 </template>
-<script setup>  
+<script setup>
 import { itemList } from "./store";
 import { ref, stop } from "vue";
 const slideInd = ref(0);

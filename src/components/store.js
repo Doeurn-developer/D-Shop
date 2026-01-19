@@ -1,51 +1,60 @@
 import { ref } from "vue";
 export const isDrawer = ref(false);
 export const isShow = ref(true);
+import banner from "@/assets/img/banner.png"
+import banner1 from "@/assets/img/banner1.jpg"
+import banner2 from "@/assets/img/banner2.jpg"
+import banner3 from "@/assets/img/banner3.5.jpg"
 export const itemList = ref([
   {
     id: 1,
     name: "Women",
-    img: "src/assets/img/banner.png",
+    img: banner,
     isShow:false
   },
   {
     id: 2,
     name: "Men ",
-    img: "src/assets/img/banner1.jpg",
+     img: banner1,
     isShow:false
   },
   {
     id: 3,
     name: "Baby",
-    img: "src/assets/img/banner2.jpg",
+    img: banner2,
     isShow:false
   },
   {
     id: 4,
     name: "Contact Me",
-    img: "src/assets/img/banner3.5.jpg",
+    img: banner3,
     isShow:false,
   },
 ]);
+import gucci1 from "@/assets/img/gocci-lucci.jpg"
+import gucci2 from "@/assets/img/Polo-gocii.jpg"
+import gucci3 from "@/assets/img/Gocci-black.jpg"
+import gucci4 from "@/assets/img/Gocci-green.jpg"
+
 export const imgList = ref([
   {
-    id : 1,
-    name : "Gucci Luccii",
-    img : "/src/assets/img/gocci-lucci.jpg" 
+    id: 1,
+    name: "Gucci Luccii",
+    img: gucci1
   },
   {
-    id : 2,
-    name : "Polo Gocci",
-    img : "/src/assets/img/Polo-gocii.jpg"
+    id: 2,
+    name: "Polo Gocci",
+    img: gucci2
   },
   {
-    id : 3,
-    name : "Gocci Black",
-    img : "/src/assets/img/Gocci-black.jpg"
+    id: 3,
+    name: "Gocci Black",
+    img: gucci3
   },
   {
-    id : 4 ,
-    name : "Gocii Green",
-    img : "/src/assets/img/Gocci-green.jpg"
+    id: 4,
+    name: "Gocii Green",
+    img: gucci4
   }
 ])
