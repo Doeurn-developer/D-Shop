@@ -4,7 +4,7 @@ export const isShow = ref(true);
 import banner from "@/assets/img/banner.png"
 import banner1 from "@/assets/img/banner1.jpg"
 import banner2 from "@/assets/img/banner2.jpg"
-import banner3 from "@/assets/img/banner3.5.jpg"
+import banner3 from "@/assets/img/banner3.jpg"
 export const itemList = ref([
   {
     id: 1,
