@@ -40,7 +40,7 @@ import gucci6 from "@/assets/img/Gocci-blue-mode.jpg"
 import gucci7 from "@/assets/img/Gocci-red.jpg"
 import gucci8 from "@/assets/img/Gocci-sky.jpg"
 import LV1 from "@/assets/img/Lv1.jpg"
-import LV2 from "@/assets/img/Lv2.jpg"
+import LV2 from "@/assets/img/lv2.jpg";
 import LV3 from "@/assets/img/Lv3.jpg"
 import LV4 from "@/assets/img/Lv4.jpg"
 import LV5 from "@/assets/img/Lv5.jpg"
