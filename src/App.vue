@@ -4,7 +4,7 @@
   <Drawer />
   <MenuList />
   <NavBar />
-  <RouterView />
+  <!-- <RouterView /> -->
 </template>
 <script setup>
 import Banner from "./components/Banner.vue";

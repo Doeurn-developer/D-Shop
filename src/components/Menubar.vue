@@ -27,16 +27,19 @@
           <i class="fa-solid fa-heart"></i>
         </li>
         <li
-          class="hover:text-gray-500 cursor-pointer"
-          @click="toggleLoginModal"
+          class="hover:text-gray-500 cursor-pointer"        
         >
           <i class="fa-regular fa-user"></i>
         </li>
+
         <li class="hover:text-blue-500">
           <i class="fa-solid fa-bell mr-5"></i>
         </li>
       </ul>
     </div>
+
+
+    
   </header>
 </template>
 <script setup>
@@ -46,11 +49,11 @@ import { isDrawer } from "./store";
 const showDrawer = () => {
   isDrawer.value = !isDrawer.value;
 };
-import { useRouter } from "vue-router";
-const router = useRouter();
-const loGin = () => {
-  router.push({ name: "login" });
-};
+// import { useRouter } from "vue-router";
+// const router = useRouter();
+// const loGin = () => {
+//   router.push({ name: "login" });
+// };
 </script>
 <style setup>
 span {
