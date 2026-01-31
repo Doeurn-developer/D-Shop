@@ -28,9 +28,8 @@ import gucci7 from "@/assets/img/Gocci-red.jpg";
 import gucci8 from "@/assets/img/Gocci-sky.jpg";
 import gucci9 from "@/assets/img/Gocci-duckred.jpg";
 
-// LV products (check capitalization!)
+// LV products 
 import LV1 from "@/assets/img/Lv1.jpg";
-import LV2 from "@/assets/img/Lv2.jpg";
 import LV3 from "@/assets/img/Lv3.jpg";
 import LV4 from "@/assets/img/Lv4.jpg";
 import LV5 from "@/assets/img/Lv5.jpg";
@@ -47,7 +46,6 @@ export const imgList = ref([
   { id: 7, name: "Gocii Red", img: gucci7, pos: 87 },
   { id: 8, name: "Gocii Sky", img: gucci8, pos: 80 },
   { id: 9, name: "Louis Vuitton 1", img: LV1, pos: 20 },
-  { id: 10, name: "Louis Vuitton 2", img: LV2, pos: 43 },
   { id: 11, name: "Louis Vuitton 3", img: LV3, pos: 90 },
   { id: 12, name: "Louis Vuitton 4", img: LV4, pos: 58 },
   { id: 13, name: "Louis Vuitton 5", img: LV5, pos: 40 },
